@@ -1,0 +1,19 @@
+.input {
+  width: 10%;
+  display: center;
+  padding: 6px;
+  margin-left: 10px;
+  background-color: rgba(49, 48, 48, 0.52);
+  border: 2.5px solid rgb(246, 249, 250);
+  color: rgb(248, 245, 245);
+  font-size: 15px;
+  height: 12px;
+  font-family: "Helvetica";
+  letter-spacing: 2.5px;
+  text-transform: camelcase;
+}
+.button2 {
+  margin-left: 5px;
+  left: 5%;
+  font-size: 17px;
+}

@@ -1,0 +1,76 @@
+.summary {
+  width: 500px;
+  background: url("../pics/fondo\ Detail.jpeg");
+  /*background-color: aliceblue;*/
+  border: 3.5px double midnightblue;
+  font-family: monospace;
+  font-size: medium;
+  color: midnightblue;
+  margin: 8px;
+  padding: 5px;
+  position: absolute;
+  top: 30px;
+  left: 250px;
+  animation: rollOut 2s ease-in-out alternate-reverse infinite;
+}
+
+@keyframes rollOut {
+  from {
+    transform: scale(100%);
+  }
+  to {
+    transform: scale(75%);
+  }
+}
+
+.btn {
+  font-family: monospace;
+  font-size: large;
+  font-weight: bold;
+  color: rgb(251, 255, 11);
+  border: 1.5px dotted rgb(255, 232, 23);
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  animation: shake 2s alternate-reverse ease-in-out infinite;
+  width: 10%;
+}
+
+@keyframes shake {
+  from {
+    transform: scale(90%);
+  }
+  to {
+    transform: scale(75%);
+  }
+}
+
+body {
+  background-color: mintcream;
+}
+
+.resume {
+  font-size: 15px;
+  font-family: monospace;
+}
+
+.dt {
+  font-size: 15px;
+  font-family: monospace;
+}
+
+.sbs {
+  font-size: 15px;
+  font-family: monospace;
+}
+
+.s {
+  font-size: 15px;
+  font-family: monospace;
+}
+
+.hs {
+  font-size: 15px;
+  font-family: monospace;
+}

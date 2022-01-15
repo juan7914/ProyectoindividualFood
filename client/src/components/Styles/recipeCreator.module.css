@@ -1,0 +1,346 @@
+.n {
+  font-size: 15px;
+  font-family: monospace;
+  position: absolute;
+  font-weight: bolder;
+  left: 3px;
+  top: 20px;
+  width: 35%;
+  border-color: midnightblue;
+  color: white;
+}
+
+.i1 {
+  border: solid rgb(255, 255, 255);
+  display: inline-block;
+  background-color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  width: 100%;
+  color: rgb(254, 254, 255);
+}
+
+.r {
+  font-size: 15px;
+  font-family: monospace;
+  position: absolute;
+  font-weight: bolder;
+  left: 3px;
+  top: 75px;
+  width: 35%;
+  color: white;
+}
+
+.i2 {
+  border: solid rgb(255, 255, 255);
+  display: inline-block;
+  background-color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  width: 100%;
+  color: rgb(251, 255, 255);
+}
+
+.s {
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: bolder;
+  position: absolute;
+  left: 3px;
+  top: 150px;
+  width: 35%;
+  color: white;
+}
+
+.i3 {
+  border: double rgb(255, 255, 255);
+  display: inline-block;
+  background-color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  width: 80%;
+  color: rgb(255, 253, 251);
+}
+
+.HS {
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: bolder;
+  position: absolute;
+  left: 3px;
+  top: 225px;
+  width: 35%;
+  color: white;
+}
+
+.i4 {
+  border: solid rgb(251, 251, 247);
+  display: inline-block;
+  background-color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  width: 80%;
+  color: rgb(245, 254, 255);
+}
+
+.SbS {
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: bolder;
+  position: absolute;
+  left: 3px;
+  top: 300px;
+  width: 35%;
+  color: white;
+}
+
+.i5 {
+  border: solid rgb(255, 255, 255);
+  display: inline-block;
+  background-color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  width: 100%;
+  color: white;
+}
+
+.i {
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: bolder;
+  position: absolute;
+  left: 3px;
+  top: 375px;
+  width: 35%;
+  color: white;
+}
+
+.i6 {
+  border: solid rgb(254, 254, 255);
+  display: inline-block;
+  background-color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  width: 100%;
+  color: rgb(255, 255, 255);
+}
+
+.btncr {
+  font-family: monospace;
+  font-size: larger;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  border: 2.5px solid rgb(251, 255, 11);
+  border-radius: 80%;
+  background-color: rgb(28, 255, 7);
+  position: absolute;
+  animation: shake 2s alternate-reverse ease-in-out infinite;
+  width: 20%;
+  bottom: 5px;
+  right: 80px;
+}
+
+@keyframes shake {
+  from {
+    transform: scale(105%);
+  }
+  to {
+    transform: scale(95%);
+  }
+}
+
+.dtframe {
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: bolder;
+  position: absolute;
+  right: 5px;
+  top: 3px;
+  height: 55%;
+  width: 50%;
+  /*border: double midnightblue;*/
+}
+
+.dtframe2 {
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: bold;
+  position: absolute;
+  right: 50px;
+  top: 60px;
+  color: rgb(251, 255, 0);
+}
+
+.dtframe3 {
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: bold;
+  position: absolute;
+  left: 250px;
+  top: 60px;
+  color: rgb(251, 255, 0);
+}
+
+.dtframe4 {
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: bold;
+  position: absolute;
+  right: 40px;
+  top: 120px;
+  color: rgb(251, 255, 0);
+}
+
+.dtframe5 {
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: bold;
+  position: absolute;
+  left: 250px;
+  top: 120px;
+  color: rgb(251, 255, 0);
+}
+
+.dtframe6 {
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: bold;
+  position: absolute;
+  right: 50px;
+  top: 180px;
+  color: rgb(251, 255, 0);
+}
+
+.dtframe7 {
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: bold;
+  position: absolute;
+  left: 250px;
+  top: 180px;
+  color: rgb(251, 255, 0);
+}
+
+.dtframe8 {
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: bold;
+  position: absolute;
+  right: 50px;
+  top: 240px;
+  color: rgb(251, 255, 0);
+}
+
+.dtframe9 {
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: bold;
+  position: absolute;
+  left: 250px;
+  top: 240px;
+  color: rgb(251, 255, 0);
+}
+
+.dtframe10 {
+  font-size: 15px;
+  font-family: monospace;
+  font-weight: bold;
+  position: absolute;
+  right: 150px;
+  top: 300px;
+  color: rgb(251, 255, 0);
+}
+
+.formframe {
+  width: 600px;
+  height: 70%;
+  background-color: rgba(64, 68, 70, 0.486);
+  border: 8px solid rgb(251, 251, 253);
+  font-family: monospace;
+  font-size: medium;
+  color: rgb(1, 1, 3);
+  margin: 8px;
+  padding: 5px;
+  position: absolute;
+  top: 100px;
+  left: 31%;
+}
+
+.botn {
+  font-family: monospace;
+  font-size: large;
+  font-weight: bold;
+  color: rgb(220, 255, 22);
+  border: 1.5px solid rgb(255, 221, 27);
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  /*animation: shake 2s alternate-reverse ease-in-out infinite;*/
+  width: 6%;
+  cursor: pointer;
+}
+.botn:hover {
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+}
+
+@keyframes shake {
+  from {
+    transform: scale(100%);
+  }
+  to {
+    transform: scale(95%);
+  }
+}
+
+.img1 {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width: 100%;
+  opacity: 90%;
+  border-radius: 1%;
+}
+h1.titulo {
+  z-index: 7;
+  color: rgb(255, 3, 3);
+  position: relative;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  left: 80px;
+}
+
+/* .img2 { */
+/* position: absolute; */
+/* bottom: 15px; */
+/* right: 15px; */
+/* width: 33%; */
+/* opacity: 90%; */
+/* border: inset 7.5px; */
+/* } */
+/*  */
+/* .img3 { */
+/* position: absolute; */
+/* bottom: 10px; */
+/* left: 15px; */
+/* width: 25%; */
+/* opacity: 85%; */
+/* border-radius: 85%; */
+/* } */
+/*  */
+/* .img4 { */
+/* position: absolute; */
+/* top: 35px; */
+/* left: 15px; */
+/* width: 33%; */
+/* opacity: 90%; */
+/* border: outset 7.5px; */
+/* } */
+
+.err {
+  position: absolute;
+  top: 25px;
+  left: 2px;
+  color: red;
+}
+.err2 {
+  position: absolute;
+  top: 25px;
+  left: 1px;
+  color: red;
+}

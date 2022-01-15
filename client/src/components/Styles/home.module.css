@@ -1,0 +1,128 @@
+.button {
+  background-color: rgba(245, 20, 20, 0.445);
+  position: absolute;
+  left: 3%;
+  width: 10%;
+  top: 10%;
+  border-radius: 100%;
+  color: rgb(253, 249, 249);
+  padding: 8px 8px;
+  /* display: inline-block; */
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: bold;
+  margin: 4px 2px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  animation: bounce 3s alternate-reverse ease-in-out infinite;
+}
+.button:hover {
+  cursor: pointer;
+  animation: none;
+  background: #000;
+  color: red;
+}
+
+@keyframes bounce {
+  from {
+    transform: scale(90%);
+  }
+  to {
+    transform: scale(75%);
+  }
+}
+
+.button2 {
+  position: absolute;
+  right: 2%;
+  top: 10%;
+  background-color: rgba(245, 20, 20, 0.445);
+  width: 10%;
+  border-radius: 100%;
+  color: rgb(253, 249, 249);
+  padding: 8px 8px;
+  /* display: inline-block; */
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 4px 2px;
+  transition-duration: 0.5s;
+  animation: bounce 3s alternate-reverse ease-in-out infinite;
+}
+.button2:hover {
+  cursor: pointer;
+  animation: none;
+  background: #000;
+  color: red;
+}
+
+.select1 {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(255, 251, 250);
+  width: 25%;
+  padding: 16px 20px;
+  border: thin;
+  border-radius: 2px;
+  background-color: rgba(50, 51, 51, 0.726);
+  cursor: pointer;
+}
+
+.select2 {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(255, 251, 250);
+  width: 25%;
+  padding: 16px 20px;
+  border: thin;
+  border-radius: 2px;
+  background-color: rgba(50, 51, 51, 0.726);
+  cursor: pointer;
+}
+
+.select3 {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(255, 251, 250);
+  width: 25%;
+  padding: 16px 20px;
+  border: thin;
+  border-radius: 2px;
+  background-color: rgba(50, 51, 51, 0.726);
+  cursor: pointer;
+}
+
+.select4 {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(255, 251, 250);
+  width: 25%;
+  padding: 16px 20px;
+  border: thin;
+  border-radius: 2px;
+  background-color: rgba(50, 51, 51, 0.726);
+  cursor: pointer;
+}
+
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-image: url("../pics/fondohome.jpeg");
+}
+
+.a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.imagen {
+  background-image: url("../pics/fondohome.jpeg");
+  background-size: contain;
+}

@@ -1,0 +1,20 @@
+ul {
+  list-style-type: none;
+  text-align: center;
+  display: inline-flex;
+}
+
+li {
+  color: rgb(251, 5, 5);
+  background-color: rgba(16, 248, 8, 0.705);
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  width: 2em;
+  margin-left: 5px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+li:hover {
+  background-color: rgb(24, 20, 246);
+}
