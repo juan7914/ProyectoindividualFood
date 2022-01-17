@@ -8,8 +8,6 @@ import pic1 from "../components/pics/K1.jpeg";
 
 export default function RecipeCreator() {
   const dispatch = useDispatch();
-  //const history = useHistory();
-  // const diets = useSelector((state) => state.diets);
   const [err, setErr] = useState({});
 
   function validate(input) {
@@ -51,17 +49,9 @@ export default function RecipeCreator() {
       setInput({
         ...input,
         diets: [...input.diets, e.target.value],
-        //diets: e.target.value,
       });
     }
   }
-
-  // function handleSelector(e) {
-  //   setInput({
-  //     ...input,
-  //     diets: [...input.diets, e.targe.value],
-  //   });
-  // }
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -76,7 +66,6 @@ export default function RecipeCreator() {
       image: "",
       diets: [],
     });
-    //history.push("/home");
   }
 
   useEffect(() => {
@@ -237,14 +226,6 @@ export default function RecipeCreator() {
             Whole 30
           </label>
         </div>
-        {/* <select onChange={(e) => handleSelector(e)}>
-          {diets.map((occ) => (
-            <option value={occ.name}>{occ.name}</option>
-          ))}
-        </select> */}
-        {/* <ul>
-            <li>{input.diets.map((el) => el + ",")}</li>
-          </ul> */}
         <button className={styles.btncr} type="submit">
           Crear Receta
         </button>
