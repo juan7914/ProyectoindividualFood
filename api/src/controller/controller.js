@@ -15,7 +15,7 @@ const getApiInfo = async () => {
       ID: obj.id,
       name: obj.title,
       resume: obj.summary,
-      score: obj.sponacularScore,
+      score: obj.spoonacularScore,
       healthylevel: obj.healthScore,
       stepbystep: obj.analyzedInstructions.map((obj) => {
         obj.steps.map((obj2) => {

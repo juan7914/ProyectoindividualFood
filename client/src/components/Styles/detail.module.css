@@ -1,17 +1,28 @@
+.fondo {
+  background-size: cover;
+  background: #000;
+  margin-top: 50px;
+  z-index: 7;
+}
+.titulo {
+  color: rgb(243, 18, 18);
+  font-size: 30px;
+  margin-top: 0px;
+}
 .summary {
   width: 500px;
-  background: url("../pics/fondo\ Detail.jpeg");
-  /*background-color: aliceblue;*/
-  border: 3.5px double midnightblue;
-  font-family: monospace;
-  font-size: medium;
-  color: midnightblue;
-  margin: 8px;
+  height: 150px;
+  background-color: rgb(6, 214, 127);
+  border: 3.5px double rgb(255, 252, 252);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 12px;
+  color: rgb(0, 0, 0);
+  margin: 10px;
   padding: 5px;
-  position: absolute;
-  top: 30px;
-  left: 250px;
-  animation: rollOut 2s ease-in-out alternate-reverse infinite;
+  position: relative;
+  top: 5px;
+  left: 390px;
+  overflow: hidden;
 }
 
 @keyframes rollOut {
@@ -19,7 +30,7 @@
     transform: scale(100%);
   }
   to {
-    transform: scale(75%);
+    transform: scale(100%);
   }
 }
 
@@ -32,45 +43,65 @@
   background-color: rgb(0, 0, 0);
   position: absolute;
   top: 20px;
-  right: 100px;
+  left: 150px;
   animation: shake 2s alternate-reverse ease-in-out infinite;
   width: 10%;
+}
+.btn2 {
+  font-family: monospace;
+  color: rgb(251, 255, 11);
+  background-color: rgb(0, 0, 0);
+  left: 150px;
+  width: 10%;
+}
+.btn2:hover {
+  color: rgb(255, 11, 11);
+  background-color: rgb(0, 0, 0);
 }
 
 @keyframes shake {
   from {
-    transform: scale(90%);
+    transform: scale(100%);
   }
   to {
-    transform: scale(75%);
+    transform: scale(100%);
   }
 }
-
-body {
-  background-color: mintcream;
-}
-
-.resume {
-  font-size: 15px;
-  font-family: monospace;
-}
-
 .dt {
-  font-size: 15px;
+  font-size: 20px;
+  color: rgb(255, 4, 4);
   font-family: monospace;
+  width: auto;
+  text-align: center;
+  margin-top: 30px;
+  left: 500px;
 }
 
 .sbs {
-  font-size: 15px;
+  font-size: 20px;
   font-family: monospace;
+  margin-top: 20px;
+  color: rgb(255, 10, 10);
 }
 
 .s {
-  font-size: 15px;
+  font-size: 20px;
   font-family: monospace;
+  margin-top: 20px;
+  color: rgb(255, 10, 10);
 }
 
 .hs {
-  font-size: 15px;
+  font-size: 20px;
   font-family: monospace;
+  margin-top: 20px;
+  color: rgb(255, 10, 10);
+  margin-bottom: 100px;
+}
+.image {
+  width: auto;
+  left: 80%;
+  top: 8%;
+  border-radius: 5%;
+  opacity: 0.8;
 }

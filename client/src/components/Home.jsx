@@ -60,7 +60,7 @@ export default function Home() {
     e.preventDefault();
     dispatch(orderByAlphabetics(e.target.value));
     setCurrentPage(1);
-    orden ? setOrden(false) : setOrden(`Ordenado ${e.target.value}`);
+    setOrden(`Ordenado ${e.target.value}`);
   }
 
   return (
@@ -78,7 +78,7 @@ export default function Home() {
       </button>
       <div>
         <select onChange={(e) => sortByScore(e)} className={styles.select1}>
-          <option value=" ">Orden</option>
+          <option value="">Orden</option>
           <option value="UP">Ascendente</option>
           <option value="DOWN">Decendente</option>
         </select>

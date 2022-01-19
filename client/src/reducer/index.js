@@ -21,13 +21,16 @@ function rootReducer(state = initialState, action) {
       };
     case "FILTER_BY_DIET":
       const allRecipes = state.allRecipes;
+
       const dietsAPI = [];
       const dietsDB = [];
+
       allRecipes.forEach((e) => {
         if (e.hasOwnProperty("diets") && e.diets.includes(action.payload)) {
           dietsAPI.push(e);
         }
       });
+
       allRecipes.forEach((e) => {
         if (
           e.hasOwnProperty("diets") &&
@@ -36,7 +39,9 @@ function rootReducer(state = initialState, action) {
           dietsDB.push(e);
         }
       });
+
       const find = dietsAPI.concat(dietsDB);
+
       if (find.length) {
         return {
           ...state,
@@ -49,6 +54,7 @@ function rootReducer(state = initialState, action) {
       return {
         ...state,
       };
+
     case "FILTER_CREATED":
       const createdFilter =
         action.payload === "created"
@@ -75,7 +81,7 @@ function rootReducer(state = initialState, action) {
               if (a.score > b.score) {
                 return 1;
               }
-              if (b.score > a.score) {
+              if (a.score < b.score) {
                 return -1;
               }
               return 0;
